@@ -1,0 +1,25 @@
+GET http://localhost:8091/todos
+
+###
+
+POST http://localhost:8091/todo/new
+Content-Type: application/json
+
+{
+    "text": "Order pizza"
+}
+
+###
+
+DELETE http://localhost:8091/todo/delete/64d0ee66fe719c76c85e4eea
+
+###
+
+PUT http://localhost:8091/todo/complete/64d0ee27fe719c76c85e4ee7
+
+
+
+
+
+
+

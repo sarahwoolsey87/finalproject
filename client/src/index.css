@@ -3,8 +3,8 @@
   --secondary: #da9f93;
   --light: #eee;
   --light-alt: #b6465f;
-  --dark: #890620;
-  --dark-alt: #cb608b;
+  --dark: #a4508b;
+  --dark-alt: #2f004f;
 }
 
 * {
@@ -86,11 +86,11 @@ h4 {
   top: 50%;
   transform: translateY(-50%);
   right: 16px;
-  color: var(--light);
+  color: var(--dark-alt);
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: #af1e2d;
+  background-color: yellow;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -195,7 +195,7 @@ h4 {
 }
 
 .route-li {
-  color: var(--light);
+  color: yellow;
   text-decoration: none;
 }
 

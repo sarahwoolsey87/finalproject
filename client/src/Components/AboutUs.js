@@ -1,4 +1,5 @@
 import React from "react";
+import "./AboutUs.css"; // Import your CSS file for styling
 
 const AboutUs = () => {
   return (
@@ -17,6 +18,16 @@ const AboutUs = () => {
         The Brawn{" "}
         <a href="https://github.com/PaoloArmentano">Paolo Armentano</a>
       </p>
+      <div className="video-container">
+        <iframe
+          src="https://player.vimeo.com/video/853018972?badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479"
+          width="640"
+          height="360"
+          frameBorder="0"
+          allow="autoplay; fullscreen; picture-in-picture"
+          title="New Recording - 09/08/2023, 14:43:58"
+        ></iframe>
+      </div>
     </div>
   );
 };

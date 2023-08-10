@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import axios from "axios";
 import DragAndDrop from "./DragAndDrop";
 
-const API_BASE = "https://dailyplanner-er57.onrender.com/";
+const API_BASE = "https://dailyplanner-er57.onrender.com";
 
 export default function Main() {
   const [todos, setTodos] = useState([]);

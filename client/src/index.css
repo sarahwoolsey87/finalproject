@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand&display=swap");
+
 :root {
   --primary: #ebd4cb;
   --secondary: #da9f93;
@@ -11,8 +13,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-
-  font-family: "Fira Sans", sans-serif;
+  font-family: "Quicksand", sans-serif;
 }
 
 body {
@@ -118,6 +119,7 @@ h4 {
     var(--secondary)
   );
   cursor: pointer;
+  font-family: "Quicksand", sans-serif;
 }
 
 .popup {
@@ -143,6 +145,7 @@ h4 {
   font-size: 20px;
   color: var(--dark);
   cursor: pointer;
+  font-family: "Quicksand", sans-serif;
 }
 
 .popup h3 {
@@ -175,12 +178,14 @@ h4 {
   margin-top: 16px;
   text-align: center;
   cursor: pointer;
+  font-family: "Quicksand", sans-serif;
 }
 
 .navbar {
   display: flex;
   justify-content: center;
   align-items: center;
+  box-shadow: -1px 15px 50px -3px rgba(0, 0, 0, 0.75);
 }
 
 .navbar-ul {
